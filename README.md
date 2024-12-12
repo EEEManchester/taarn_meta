@@ -9,7 +9,7 @@ A collection of repositories for TAARN.
 - ros1: [EEEManchester/taarn_bluerov_onboard](https://github.com/EEEManchester/taarn_bluerov_onboard/tree/ice9) _ice9 branch_
 - docker:
 ### Mallard software
-- ros1: [EEEManchester/taarn_bluerov_onboard](https://github.com/EEEManchester/taarn_mallard_onboard/tree/ice9) _ice9 branch_
+- ros1: [EEEManchester/taarn_mallard_onboard](https://github.com/EEEManchester/taarn_mallard_onboard/tree/ice9) _ice9 branch_
 - docker:
 
 ## Deverlopment by Tom Breeze
