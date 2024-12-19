@@ -5,8 +5,11 @@ A collection of repositories for TAARN.
 ### Base station software
 - ros1: [EEEManchester/taarn_basestation_ros](https://github.com/EEEManchester/taarn_basestation_ros/tree/ice9) _ice9 branch_
 - docker:
-### Bluerov softare
+### Bluerov software
+`taarn_bluerov_obard` is the ros package contains all the custom launch files and configurations specifically for the TAARN project. It is designed only for TAARN.
+`taarn_bluerov` is the ros package contains the control functions (`bluerov_control`) and PhD work (`bluerov_autonomy`). It is more of a standard package that can be used by other projects.
 - ros1: [EEEManchester/taarn_bluerov_onboard](https://github.com/EEEManchester/taarn_bluerov_onboard/tree/ice9) _ice9 branch_
+- ros1: [EEEManchester/taarn_bluerov](https://github.com/EEEManchester/taarn_bluerov/tree/ice9) _ice9 branch_
 - docker:
 ### Mallard software
 - ros1: [EEEManchester/taarn_mallard_onboard](https://github.com/EEEManchester/taarn_mallard_onboard/tree/ice9) _ice9 branch_
