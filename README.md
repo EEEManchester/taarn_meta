@@ -4,7 +4,7 @@ A collection of repositories for TAARN.
 ## Development by ICE 9
 ### Base station software
 - Bring up ROS package: [EEEManchester/taarn_basestation_ros](https://github.com/EEEManchester/taarn_basestation_ros/tree/ice9) _ice9 branch_
-- Visual virtual tether: [EEEManchester/visual_virtual_tether]() **TODO**
+- Visual virtual tether: [EEEManchester/visual_virtual_tether](https://github.com/EEEManchester/visual_virtual_tether)
 - docker:
 ### Bluerov software
 `taarn_bluerov_obard` is the ros package contains all the custom launch files and configurations specifically for the TAARN project. It is designed only for TAARN.
