@@ -3,36 +3,40 @@ A collection of repositories for TAARN.
 
 ## Development by ICE 9
 ### Base station software
-- Bring up ROS package: [EEEManchester/taarn_basestation_ros](https://github.com/EEEManchester/taarn_basestation_ros/tree/ice9) _ice9 branch_
-- Visual virtual tether: [EEEManchester/visual_virtual_tether](https://github.com/EEEManchester/visual_virtual_tether)
-- docker:
-### Bluerov software
-`taarn_bluerov_obard` is the ros package contains all the custom launch files and configurations specifically for the TAARN project. It is designed only for TAARN.
-`taarn_bluerov` is the ros package contains the control functions (`bluerov_control`) and PhD work (`bluerov_autonomy`). It is more of a standard package that can be used by other projects.
-- Bring up ROS package: [EEEManchester/taarn_bluerov_onboard](https://github.com/EEEManchester/taarn_bluerov_onboard/tree/ice9) _ice9 branch_
-- Bluerov controller: [EEEManchester/taarn_bluerov](https://github.com/EEEManchester/taarn_bluerov/tree/ice9) _ice9 branch_
-- docker:
-### Mallard software
-- Bring up ROS package: [EEEManchester/taarn_mallard_onboard](https://github.com/EEEManchester/taarn_mallard_onboard/tree/ice9) _ice9 branch_
-- docker:
+- Bring up ROS package: [EEEManchester/taarn_basestation_ros](https://github.com/EEEManchester/taarn_basestation_ros/tree/main) _main branch_
 
-## Deverlopment by Tom Breeze
+### MallARD software
+- MallARD meta: [EEEManchester/MallARD](https://github.com/EEEManchester/MallARD/tree/ice9-dev) _ice9-dev branch_
+
+The original MallARD meta repository with added attitude control and refactored ds_cap package.
+
+- Bring up ROS package: [EEEManchester/taarn_mallard_onboard](https://github.com/EEEManchester/taarn_mallard_onboard/tree/main) _main branch_
+
+A ROS package contains custom launch files and parameter definitions for launching all ROS nodes on MallARD's on-board computer.
+
+### Bluerov software
+- Bluerov meta: [EEEManchester/taarn_bluerov](https://github.com/EEEManchester/taarn_bluerov/tree/ice9) TODO _main branch_
+
+A meta repository for Bluerov, similar to the MallARD repository, contains `bluerov_control` ROS package and `bluerov_autonomy` (not developed).
+
+- Bring up ROS package: [EEEManchester/taarn_bluerov_onboard](https://github.com/EEEManchester/taarn_bluerov_onboard/tree/ice9) TODO _main branch_
+
+A ROS package for custom launch files and parameter definitions for launching all ROS nodes on Bluerov's on-board computer.
+
+### Other
+- Visual virtual tether: [EEEManchester/visual_virtual_tether](https://github.com/EEEManchester/visual_virtual_tether/tree/main) _main branch_
+
+## Deverlopment by Tom Breeze (legacy)
 ### Base station software
 - ros2: [EEEManchester/taarn](https://github.com/EEEManchester/taarn)
 - ros2: [EEEManchester/taarn_mallard](https://github.com/EEEManchester/taarn_mallard/)
-- ros2: [EEEManchester/taarn_bluerov](https://github.com/EEEManchester/taarn_bluerov)
+- ros2: [EEEManchester/taarn_bluerov](https://github.com/EEEManchester/taarn_bluerov) TODO _tb-ros2 branch_
 - ros1: [EEEManchester/taarn_mallard_basestation](https://github.com/EEEManchester/taarn_mallard_basestation)
 - ros1: [EEEManchester/taarn_ros1_basestation](https://github.com/EEEManchester/taarn_ros1_basestation)
-### Bluerov softare
-- ros1 (inaccessible): [tbreezeuom/taarn_bluerov_onboard](https://github.com/tbreezeuom/taarn_bluerov_onboard/)
-- ros1: [EEEManchester/taarn_bluerov_onboard](https://github.com/EEEManchester/taarn_bluerov_onboard/tree/main) _main branch_
-#### Note
-_tbreezeuom/taarn_bluerov_onboard_ is the git remote found on the Bluerov, as returned by `git remote get-url origin` shell command. _EEEManchester/taarn_bluerov_onboard_ seems to be a duplicate of it.
 ### Mallard software
-- ros1 (inaccessible): [tbreezeuom/mallard_old_ros_repo](https://github.com/tbreezeuom/mallard_old_ros_repo)
 - ros1: [EEEManchester/taarn_mallard_onboard](https://github.com/EEEManchester/taarn_mallard_onboard/tree/tb) _tb branch_
-#### Note
-_tbreezeuom/mallard_old_ros_repo_ is possibly private and no duplicate is found in EEEManchester. The entire content is copied into _EEEManchester/taarn_mallard_onboard_.
+### Bluerov softare
+- ros1: [EEEManchester/taarn_bluerov_onboard](https://github.com/EEEManchester/taarn_bluerov_onboard/tree/main) TODO _tb branch_
 
 ## Other related
 - MallARD meta [EEEManchester/MallARD](https://github.com/EEEManchester/MallARD)
