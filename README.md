@@ -30,7 +30,7 @@ A ROS package for custom launch files and parameter definitions for launching al
 ### Base station software
 - ros2: [EEEManchester/taarn](https://github.com/EEEManchester/taarn)
 - ros2: [EEEManchester/taarn_mallard](https://github.com/EEEManchester/taarn_mallard/)
-- ros2: [EEEManchester/taarn_bluerov](https://github.com/EEEManchester/taarn_bluerov/tree/tb-ros2) _tb-ros2 branch_
+- ros2: [EEEManchester/taarn_bluerov](https://github.com/EEEManchester/taarn_bluerov/tree/tb-ros2-teleop) _tb-ros2-teleop branch_
 - ros1: [EEEManchester/taarn_mallard_basestation](https://github.com/EEEManchester/taarn_mallard_basestation)
 - ros1: [EEEManchester/taarn_ros1_basestation](https://github.com/EEEManchester/taarn_ros1_basestation)
 ### Mallard software
