@@ -37,6 +37,3 @@ A ROS package for custom launch files and parameter definitions for launching al
 - ros1: [EEEManchester/taarn_mallard_onboard](https://github.com/EEEManchester/taarn_mallard_onboard/tree/tb) _tb branch_
 ### Bluerov softare
 - ros1: [EEEManchester/taarn_bluerov_onboard](https://github.com/EEEManchester/taarn_bluerov_onboard/tree/tb-bluerov-control) _tb-bluerov-control branch_
-
-## Other related
-- MallARD meta [EEEManchester/MallARD](https://github.com/EEEManchester/MallARD)
