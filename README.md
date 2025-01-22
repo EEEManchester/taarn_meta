@@ -2,15 +2,15 @@
 A collection of repositories for TAARN.
 
 # Development by ICE 9
-## 1. Installation
+## Installation
 See [Installation-ice9-development](Installation-ice9-development.md)
 
-## 2. A list of repositories:
+## A list of repositories:
 
-#### 2.1 Base station software
+#### Base station software
 - Bring up ROS package: [EEEManchester/taarn_basestation_ros](https://github.com/EEEManchester/taarn_basestation_ros/tree/main) _main branch_
 
-#### 2.2 MallARD software
+#### MallARD software
 - MallARD meta: [EEEManchester/MallARD](https://github.com/EEEManchester/MallARD/tree/ice9-dev) _ice9-dev branch_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The original MallARD meta repository with added attitude control and refactored ds_cap package.
@@ -19,7 +19,7 @@ See [Installation-ice9-development](Installation-ice9-development.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A ROS package contains custom launch files and parameter definitions for launching all ROS nodes on MallARD's on-board computer.
 
-#### 2.3 Bluerov software
+#### Bluerov software
 - Bluerov meta: [EEEManchester/taarn_bluerov](https://github.com/EEEManchester/taarn_bluerov/tree/main) _main branch_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A meta repository for Bluerov, similar to the MallARD repository.
@@ -28,7 +28,7 @@ See [Installation-ice9-development](Installation-ice9-development.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A ROS package for custom launch files and parameter definitions for launching all ROS nodes on Bluerov's on-board computer.
 
-#### 2.4 Other
+#### Other
 - Visual virtual tether: [EEEManchester/visual_virtual_tether](https://github.com/EEEManchester/visual_virtual_tether/tree/main) _main branch_
 
 # Deverlopment by Tom Breeze (legacy)
