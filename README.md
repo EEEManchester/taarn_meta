@@ -15,11 +15,11 @@ The original MallARD meta repository with added attitude control and refactored 
 A ROS package contains custom launch files and parameter definitions for launching all ROS nodes on MallARD's on-board computer.
 
 ### Bluerov software
-- Bluerov meta: [EEEManchester/taarn_bluerov](https://github.com/EEEManchester/taarn_bluerov/tree/ice9) TODO _main branch_
+- Bluerov meta: [EEEManchester/taarn_bluerov](https://github.com/EEEManchester/taarn_bluerov/tree/main) _main branch_
 
 A meta repository for Bluerov, similar to the MallARD repository, contains `bluerov_control` ROS package and `bluerov_autonomy` (not developed).
 
-- Bring up ROS package: [EEEManchester/taarn_bluerov_onboard](https://github.com/EEEManchester/taarn_bluerov_onboard/tree/ice9) TODO _main branch_
+- Bring up ROS package: [EEEManchester/taarn_bluerov_onboard](https://github.com/EEEManchester/taarn_bluerov_onboard/tree/main) _main branch_
 
 A ROS package for custom launch files and parameter definitions for launching all ROS nodes on Bluerov's on-board computer.
 
@@ -30,13 +30,13 @@ A ROS package for custom launch files and parameter definitions for launching al
 ### Base station software
 - ros2: [EEEManchester/taarn](https://github.com/EEEManchester/taarn)
 - ros2: [EEEManchester/taarn_mallard](https://github.com/EEEManchester/taarn_mallard/)
-- ros2: [EEEManchester/taarn_bluerov](https://github.com/EEEManchester/taarn_bluerov) TODO _tb-ros2 branch_
+- ros2: [EEEManchester/taarn_bluerov](https://github.com/EEEManchester/taarn_bluerov/tree/tb-ros2) _tb-ros2 branch_
 - ros1: [EEEManchester/taarn_mallard_basestation](https://github.com/EEEManchester/taarn_mallard_basestation)
 - ros1: [EEEManchester/taarn_ros1_basestation](https://github.com/EEEManchester/taarn_ros1_basestation)
 ### Mallard software
 - ros1: [EEEManchester/taarn_mallard_onboard](https://github.com/EEEManchester/taarn_mallard_onboard/tree/tb) _tb branch_
 ### Bluerov softare
-- ros1: [EEEManchester/taarn_bluerov_onboard](https://github.com/EEEManchester/taarn_bluerov_onboard/tree/main) TODO _tb branch_
+- ros1: [EEEManchester/taarn_bluerov_onboard](https://github.com/EEEManchester/taarn_bluerov_onboard/tree/tb-bluerov-control) _tb-bluerov-control branch_
 
 ## Other related
 - MallARD meta [EEEManchester/MallARD](https://github.com/EEEManchester/MallARD)
