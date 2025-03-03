@@ -12,3 +12,4 @@
 
 ## Next time
 From the dashboard, you should see the already set-up connection under "Recently viewed". Click that and you are good to go.
+![recently_viewed](docs/foxglove_recently_viewed.png)
