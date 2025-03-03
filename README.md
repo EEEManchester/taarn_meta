@@ -5,6 +5,8 @@ A collection of repositories for TAARN.
 ## Installation
 See [Installation-ice9-development](Installation-ice9-development.md)
 
+## User manual
+See [Software-user-manual](SOFTWARE_USER_MANUAL.md)
 ## A list of repositories:
 
 #### Base station software
