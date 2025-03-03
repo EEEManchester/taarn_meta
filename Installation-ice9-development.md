@@ -14,7 +14,7 @@ You will need to configure three computers to get the TAARN project setup fully 
 6. Set up .bashrc
 ```shell
 cat >> ~/.bashrc<< EOF
-source ~/taarn_basestation_ws/devel/setup.bash
+source ~/taarn_basestation_ws/devel/setup.bash #NOTE if you are using docker, you need to replace "~" with "docker_data"
 
 export ROS_IP="172.16.0.101"
 export ROS_MASTER_URI="http://172.16.0.101:11311"
