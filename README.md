@@ -7,6 +7,10 @@ See [Installation-ice9-development](Installation-ice9-development.md)
 
 ## User manual
 See [Software-user-manual](SOFTWARE_USER_MANUAL.md)
+
+## ROS setup diagram:
+![ros_setup](files/ros_setup.png)
+
 ## A list of repositories:
 
 #### Base station software
