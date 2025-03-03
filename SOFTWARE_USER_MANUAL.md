@@ -54,7 +54,7 @@ sshmallard
 start_robot
 ```
 
-6. Start Foxglove Studio and connect to ROS1 via IP address.
+6. Start Foxglove Studio and connect to ROS1 via IP address (see [Foxglove-Studio-Guide.md](FOXGLOVE_STUDIO_GUIDE.md)).
 
 ## Pre-sailing check
 1. Test the robots individually:
