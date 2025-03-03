@@ -19,8 +19,26 @@ source ~/taarn_basestation_ws/devel/setup.bash #NOTE if you are using docker, yo
 export ROS_IP="172.16.0.101"
 export ROS_MASTER_URI="http://172.16.0.101:11311"
 export ROS_HOSTNAME="172.16.0.101"
+export BLUEROV_IP=172.16.0.103
+export MALLARD_IP=172.16.0.100
 
 alias start_basestation='roslaunch taarn_basestation_bringup basestation.launch'
+
+alias qgroundcontrol="~/Desktop/QGroundControl.AppImage" #Note change to the correct directory
+alias runros1="~/Dockers/dockers/ros1_melodic/run.sh" #Only needed for docker, change to the correct docker script location
+alias shellros1="~/Dockers/dockers/ros1_melodic/shell.bash" #Only needed for docker, change to the correct docker script location
+
+function get_ssh_done() {
+	ssh $1
+	while test $? -gt 0
+	do
+		echo "Trying again ..."
+		ssh $1
+	done
+}
+
+alias sshbluerov="get_ssh_done $BLUEROV_IP"
+alias sshmallard="get_ssh_done $MALLARD_IP"
 
 function fixmap() {
 	rosparam set /hector_mapping/map_update_angle_thresh 1000
