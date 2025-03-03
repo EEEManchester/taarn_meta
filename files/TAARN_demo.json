@@ -1,0 +1,343 @@
+{
+  "configById": {
+    "RawMessages!wchoi7": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/mallard/mavros/rc/override.channels[3:5]",
+      "fontSize": 36
+    },
+    "Plot!2q8a871": {
+      "paths": [
+        {
+          "value": "/mallard/mavros/rc/override.channels[3]",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/mallard/mavros/rc/override.channels[4]",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/mallard/mavros/rc/override.channels[5]",
+          "enabled": true,
+          "color": "#f7df71"
+        }
+      ],
+      "minYValue": 1100,
+      "maxYValue": 1900,
+      "showXAxisLabels": false,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "none",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "RawMessages!os6rgs": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/mallard/cmd_vel",
+      "fontSize": 36,
+      "expansion": {
+        "linear": "c",
+        "angular": "c"
+      }
+    },
+    "RawMessages!87wgz9": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/bluerov/teleop/cmd_vel",
+      "fontSize": 36
+    },
+    "RawMessages!24x2gc6": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/bluerov/mavros/rc/override.channels[:5]",
+      "fontSize": 36
+    },
+    "3D!18i6zy7": {
+      "layers": {
+        "845139cb-26bc-40b3-8161-8ab60af4baf5": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Grid",
+          "instanceId": "845139cb-26bc-40b3-8161-8ab60af4baf5",
+          "layerId": "foxglove.Grid",
+          "size": 10,
+          "divisions": 10,
+          "lineWidth": 1,
+          "color": "#248eff",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "order": 1
+        }
+      },
+      "cameraState": {
+        "perspective": false,
+        "distance": 10.807201753240635,
+        "phi": 65.90876107681244,
+        "thetaOffset": -0.12344141218488539,
+        "targetOffset": [
+          -0.6550111078778065,
+          -0.6003508596151117,
+          1.800598668486037e-17
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "fovy": 45,
+        "near": -0.5,
+        "far": 5000
+      },
+      "followMode": "follow-none",
+      "scene": {
+        "transforms": {
+          "labelSize": 0.12,
+          "showLabel": false,
+          "axisScale": 0
+        }
+      },
+      "transforms": {
+        "frame:odom": {
+          "visible": false
+        },
+        "frame:odom_ned": {
+          "visible": false
+        },
+        "frame:usb_cam": {
+          "visible": false
+        },
+        "frame:BlueROV": {
+          "visible": false
+        },
+        "frame:World": {
+          "visible": false
+        },
+        "frame:BlueROV2": {
+          "visible": true
+        },
+        "frame:MallARD_003": {
+          "visible": true
+        },
+        "frame:scanmatcher_frame": {
+          "visible": false
+        },
+        "frame:map_ned": {
+          "visible": false
+        },
+        "frame:thr_rear_right": {
+          "visible": false
+        },
+        "frame:thr_rear_left": {
+          "visible": false
+        },
+        "frame:thr_front_right": {
+          "visible": false
+        },
+        "frame:thr_front_left": {
+          "visible": false
+        },
+        "frame:laser": {
+          "visible": false
+        },
+        "frame:odometer_link": {
+          "visible": false
+        },
+        "frame:gnss_2_antenna_link": {
+          "visible": false
+        },
+        "frame:gnss_1_antenna_link": {
+          "visible": false
+        },
+        "frame:imu_link": {
+          "visible": false
+        },
+        "frame:base_link_frd": {
+          "visible": false
+        },
+        "frame:Projected_point": {
+          "visible": false
+        },
+        "frame:Camera": {
+          "visible": false
+        },
+        "frame:map": {
+          "visible": false
+        },
+        "frame:base_link": {
+          "visible": false
+        }
+      },
+      "topics": {
+        "/map": {
+          "visible": true
+        },
+        "/scan": {
+          "visible": true,
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo",
+          "pointSize": 5
+        },
+        "/slam_out_pose": {
+          "visible": true,
+          "type": "arrow",
+          "arrowScale": [
+            0.4,
+            0.1,
+            0.15
+          ],
+          "color": "#dd3c3cff"
+        },
+        "/dscap_sys": {
+          "visible": true,
+          "type": "arrow",
+          "color": "#3457f1ff",
+          "arrowScale": [
+            0.4,
+            0.1,
+            0.15
+          ]
+        }
+      },
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {},
+      "followTf": "map"
+    },
+    "Image!3mnp456": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {
+        "meshUpAxis": "y_up"
+      },
+      "transforms": {
+        "frame:Camera": {
+          "visible": false
+        }
+      },
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/tag_detections_image/compressed",
+        "calibrationTopic": "/usb_cam/camera_info"
+      }
+    },
+    "RawMessages!18b818r": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/yaw_w2t",
+      "fontSize": 36
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "first": {
+      "direction": "row",
+      "first": {
+        "first": {
+          "direction": "row",
+          "second": "Plot!2q8a871",
+          "first": "RawMessages!wchoi7",
+          "splitPercentage": 34.80392156862746
+        },
+        "second": {
+          "first": "RawMessages!os6rgs",
+          "second": {
+            "first": "RawMessages!87wgz9",
+            "second": {
+              "first": "RawMessages!24x2gc6",
+              "second": "RawMessages!18b818r",
+              "direction": "column"
+            },
+            "direction": "column",
+            "splitPercentage": 29.87477638640429
+          },
+          "direction": "column",
+          "splitPercentage": 9.741657696447797
+        },
+        "direction": "column",
+        "splitPercentage": 11.05792245093346
+      },
+      "second": "3D!18i6zy7",
+      "splitPercentage": 33.75620518477662
+    },
+    "second": "Image!3mnp456",
+    "direction": "row",
+    "splitPercentage": 53.43353964043619
+  }
+}
