@@ -6,16 +6,35 @@ You will need to configure three computers to get the TAARN project setup fully 
 - Bluerov on-board computer
 
 ## Base station computer
-1. Install the QGroundControl software
+1. You need a machine running Ubuntu 16.04 or Ubuntu 16.04 in docker.
+2. Install [ROS melodic](https://wiki.ros.org/melodic/Installation/Ubuntu) (recommend to use Desktop-Full Install)
+3. Install [QGroundControl](https://qgroundcontrol.com/.)
+4. Install [taarn_basestation_ros](https://github.com/EEEManchester/taarn_basestation_ros/tree/main)
+5. Set up .bashrc
+```shell
+cat >> ~/.bashrc<< EOF
+source ~/taarn_basestation_ws/devel/setup.bash
 
-You can download the software from their official website: https://qgroundcontrol.com/.
+export ROS_IP="172.16.0.101"
+export ROS_MASTER_URI="http://172.16.0.101:11311"
+export ROS_HOSTNAME="172.16.0.101"
 
-2. Install [taarn_basestation_ros](https://github.com/EEEManchester/taarn_basestation_ros/tree/main)
+alias start_basestation='roslaunch taarn_basestation_bringup basestation.launch'
+
+function fixmap() {
+	rosparam set /hector_mapping/map_update_angle_thresh 1000
+	rosparam set /hector_mapping/map_update_distance_thresh 1000
+	echo done
+}
+
+function unfixmap() {
+	rosparam set /hector_mapping/map_update_distance_thresh 0.4
+        rosparam set /hector_mapping/map_update_angle_thresh 0.06
+	echo done
+}
+EOF
 ```
-git clone -b main git@github.com:EEEManchester/taarn_basestation_ros.git
-```
-
-Follow the instruction to install dependencies and run the package.
+6. Connect the PC to the TARRN network switch and manually change IPv4 address to `172.16.0.101`.
 
 ## MallARD on-board computer
 Install [taarn_mallard_onboard](https://github.com/EEEManchester/taarn_mallard_onboard/tree/main)
