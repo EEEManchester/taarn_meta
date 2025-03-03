@@ -5,7 +5,7 @@ Before you can start the software, you must prepare the hardware first.
 2. Plug in both joysticks. If bluetooth connection is preferred, then long press the PS button until light is on. Blue light is for Bluerov and red light is for MallARD.
 3. Install batteries into both robots. You should hear the classic ESC beeping on both robots.
 
-*Safety warning: From this point onwards, do not attempt to put your fingers in the thrusters, until the batteries are removed or fully cooked.*
+*Safety warning: From this point onwards, you must resist the temptation of putting your fingers in the thrusters, not until the batteries are removed or fully cooked.*
 
 3. Perform vacuum test if needed.
 4. Do not yet put the robots in water. Complete the software preparation, test the joysticks, then lower the robots into water if all working fine.
@@ -35,7 +35,7 @@ runros1
 start_basestation
 ```
 
-3. In terminal 2, start QGround Control
+3. In terminal 2, start QGround Control. QGround Control does not do much but needed to initialise pixhawk IMU.
 ```shell
 qgroundcontrol
 ```
@@ -77,7 +77,7 @@ start_robot
 
 ## Mapping
 1. To reset mapping, you will need to restart MallARD software from terminal 4, control-C shutdown and `start_robot` again.
-2. To fix the map, you will need to open a new terminal and type:
+2. To fix the map, you will need to open a new terminal (or what I like is to open a new tab in Terminal 1) and type:
 ```
 sshros1
 fixmap
