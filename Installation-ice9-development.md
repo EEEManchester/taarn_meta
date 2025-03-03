@@ -7,10 +7,11 @@ You will need to configure three computers to get the TAARN project setup fully 
 
 ## Base station computer
 1. You need a machine running Ubuntu 16.04 or Ubuntu 16.04 in docker.
-2. Install [ROS melodic](https://wiki.ros.org/melodic/Installation/Ubuntu) (recommend to use Desktop-Full Install)
-3. Install [QGroundControl](https://qgroundcontrol.com/.)
-4. Install [taarn_basestation_ros](https://github.com/EEEManchester/taarn_basestation_ros/tree/main)
-5. Set up .bashrc
+2. Install [ROS melodic](https://wiki.ros.org/melodic/Installation/Ubuntu) (recommend to use Desktop-Full Install).
+3. Install [QGroundControl](https://qgroundcontrol.com/).
+4. Install [Foxglove Studio](https://foxglove.dev/download) or use RVIZ for visualisation.
+5. Install [taarn_basestation_ros](https://github.com/EEEManchester/taarn_basestation_ros/tree/main).
+6. Set up .bashrc
 ```shell
 cat >> ~/.bashrc<< EOF
 source ~/taarn_basestation_ws/devel/setup.bash
@@ -34,7 +35,7 @@ function unfixmap() {
 }
 EOF
 ```
-6. Connect the PC to the TARRN network switch and manually change IPv4 address to `172.16.0.101`.
+7. Connect the PC to the TARRN network switch and manually change IPv4 address to `172.16.0.101`.
 
 ## MallARD on-board computer
 Install [taarn_mallard_onboard](https://github.com/EEEManchester/taarn_mallard_onboard/tree/main)
