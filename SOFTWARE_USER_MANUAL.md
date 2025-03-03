@@ -35,7 +35,7 @@ runros1
 start_basestation
 ```
 
-3. In terminal 2, start QGround Control. QGround Control does not do much but needed to initialise pixhawk IMU.
+3. In terminal 2, start QGround Control. QGround Control does not do much but is needed to initialise pixhawk IMU.
 ```shell
 qgroundcontrol
 ```
