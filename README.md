@@ -9,6 +9,11 @@ See [Installation-ice9-development](Installation-ice9-development.md)
 See [Software-user-manual](SOFTWARE_USER_MANUAL.md)
 
 ## ROS setup diagram:
+```yaml
+LEGEND:
+  Oval: ROS node
+  Rectangle: ROS topic
+```
 ![ros_setup](files/ros_setup.png)
 
 ## A list of repositories:
