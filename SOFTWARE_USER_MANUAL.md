@@ -76,7 +76,7 @@ Joystick mappings for both robot can be found here: [Teleop](https://github.com/
 3. Turn on depth control of the Bluerov.
 4. Enjoy.
 
-## Mapping
+## SLAM Mapping
 1. To reset mapping, you will need to restart MallARD software from terminal 4, control-C shutdown and `start_robot` again.
 2. To fix the map, you will need to open a new terminal (or what I like is to open a new tab in Terminal 1) and type:
 ```
