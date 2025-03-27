@@ -61,12 +61,11 @@ Install [taarn_mallard_onboard](https://github.com/EEEManchester/taarn_mallard_o
 git clone -b main git@github.com:EEEManchester/taarn_mallard_onboard.git
 ```
 
-Follow the instruction to install dependencies and run the package.
+Follow the [instructions](https://github.com/EEEManchester/taarn_mallard_onboard/blob/main/install/INSTALL.md) to install dependencies and run the package.
 
 ## Bluerov on-board computer
 Install [taarn_bluerov_onboard](https://github.com/EEEManchester/taarn_bluerov_onboard/tree/main)
 ```
 git clone -b main git@github.com:EEEManchester/taarn_bluerov_onboard.git
+git clone -b main git@github.com:EEEManchester/taarn_bluerov.git
 ```
-
-Follow the instruction to install dependencies and run the package.
