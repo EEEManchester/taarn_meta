@@ -70,6 +70,7 @@ start_robot
 3. Final check of all cylinders are free from any form of moisture, e.g. mist and standing water, and all penetraters and end caps are properly installed.
 
 ## Sail
+Joystick mappings for both robot can be found here: [Teleop](https://github.com/EEEManchester/taarn_basestation_ros/tree/main?tab=readme-ov-file#teleop)
 1. Lower both robots into water, be cautious of the tether of the Bluerov getting tangled somewhere.
 2. Arm the robot and drive them away from the tank walls
 3. Turn on depth control of the Bluerov.
